@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ex_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="뷰바인딩" />
+
+    <TextView
+        android:id="@+id/increase_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/increase_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="증가" />
+
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인텐트 전환하기" />
+
+
+    <Button
+        android:id="@+id/change_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="암시적 인텐트로 전환하기" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_rounded_circle"
+        android:padding="10dp"
+        android:text="백그라운드 디자인" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_rounded_rectangle"
+        android:padding="10dp"
+        android:text="백그라운드 디자인" />
+
+
+    <!--  버튼디자인  -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffff00"
+        android:text="버튼디자인"
+        android:textColor="#ff0000"
+        app:cornerRadius="0dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_rounded_rectangle"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:inputType="text"
+        android:background="@drawable/edittext_rounded_rectangle"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자"
+        android:inputType="number"
+        android:background="@drawable/edittext_rounded_rectangle"
+        />
+
+</LinearLayout>

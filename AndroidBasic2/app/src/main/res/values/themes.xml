@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidBasic" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--    상태바의 색상 설정    -->
+        <!--        <item name="android:statusBarColor">@color/white</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!--   상태바를 숨기는 기능     -->
+        <!--        <item name="android:windowFullscreen">true</item>-->
+
+
+    </style>
+
+    <style name="Theme.AndroidBasic" parent="Base.Theme.AndroidBasic" />
+</resources>
